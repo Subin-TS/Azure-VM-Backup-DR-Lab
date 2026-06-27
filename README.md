@@ -31,43 +31,7 @@ The primary objective of this project is to protect business-critical workloads 
 # Solution Architecture
 
 ```
-                           Internet
-                               │
-                               ▼
-                        Azure Public IP
-                               │
-                               ▼
-                  Ubuntu 22.04 Virtual Machine
-                    (Primary Region - Central India)
-                               │
-                             NGINX
-                               │
-                     Sample Web Application
-                               │
-        ┌──────────────────────┴──────────────────────┐
-        │                                             │
-        ▼                                             ▼
-
- Azure Backup                               Azure Site Recovery
-
- Recovery Services Vault                    Recovery Services Vault
-
- (Central India)                            (South India)
-
-        │                                             │
-
- Daily Recovery Points              Continuous Cross-Region Replication
-
-        │                                             │
-
- VM Restore                         Replica Managed Disks
-
-                                              │
-
-                                              ▼
-
-                                Test Failover Virtual Machine
-                                    (Secondary Region)
+      <img width="3078" height="1981" alt="Blank diagram (3)" src="https://github.com/user-attachments/assets/aa27e59e-452d-4e2b-a176-379a553f36ed" />                    
 ```
 
 ---
@@ -189,8 +153,6 @@ The primary objective of this project is to protect business-critical workloads 
 - Azure Troubleshooting
 
 ---
-
-<img width="3078" height="1981" alt="Blank diagram (3)" src="https://github.com/user-attachments/assets/aa27e59e-452d-4e2b-a176-379a553f36ed" />
 
 
 ---
