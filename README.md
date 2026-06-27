@@ -31,7 +31,10 @@ The primary objective of this project is to protect business-critical workloads 
 # Solution Architecture
 
 ```
-<img width="3078" height="1981" alt="Blank diagram (3)" src="https://github.com/user-attachments/assets/c8aa330e-fb37-4c4f-88f4-ef8feac3e04b" />
+<p align="center">
+  <img src=""D:\Akumen\Azure\PJ-29\Architecture-final.png"" alt="Azure DR Architecture" width="100%">
+</p>
+
 
 
 ```
