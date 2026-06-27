@@ -145,25 +145,25 @@ The primary objective of this project is to protect business-critical workloads 
 
 # Validation Performed
 
-✔ Ubuntu VM successfully deployed
+ Ubuntu VM successfully deployed
 
-✔ NGINX web application accessible
+ NGINX web application accessible
 
-✔ Backup completed successfully
+ Backup completed successfully
 
-✔ Recovery point created successfully
+ Recovery point created successfully
 
-✔ File-Level Restore validated
+ File-Level Restore validated
 
-✔ Azure Site Recovery configured successfully
+ Azure Site Recovery configured successfully
 
-✔ Cross-region replication completed
+ Cross-region replication completed
 
-✔ Replication Health verified
+ Replication Health verified
 
-✔ Test Failover completed successfully
+ Test Failover completed successfully
 
-✔ Cleanup Test Failover completed successfully
+ Cleanup Test Failover completed successfully
 
 ---
 
@@ -190,6 +190,7 @@ The primary objective of this project is to protect business-critical workloads 
 
 ---
 
+<img width="3078" height="1981" alt="Blank diagram (3)" src="https://github.com/user-attachments/assets/aa27e59e-452d-4e2b-a176-379a553f36ed" />
 
 
 ---
