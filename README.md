@@ -31,8 +31,8 @@ The primary objective of this project is to protect business-critical workloads 
 # Solution Architecture
 
 ```
-      <img width="3078" height="1981" alt="Blank diagram (3)" src="https://github.com/user-attachments/assets/aa27e59e-452d-4e2b-a176-379a553f36ed" />                    
-```
+<img width="3078" height="1981" alt="Blank diagram (3)" src="https://github.com/user-attachments/assets/cc24d57a-53b1-4e4b-87b3-29bdc4c11744" />
+
 
 ---
 
