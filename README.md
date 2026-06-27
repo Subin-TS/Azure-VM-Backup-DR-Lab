@@ -31,11 +31,43 @@ The primary objective of this project is to protect business-critical workloads 
 # Solution Architecture
 
 ```
-<p align="center">
-  <img src=""D:\Akumen\Azure\PJ-29\Architecture-final.png"" alt="Azure DR Architecture" width="100%">
-</p>
+  Internet
+                               │
+                               ▼
+                        Azure Public IP
+                               │
+                               ▼
+                  Ubuntu 22.04 Virtual Machine
+                    (Primary Region - Central India)
+                               │
+                             NGINX
+                               │
+                     Sample Web Application
+                               │
+        ┌──────────────────────┴──────────────────────┐
+        │                                             │
+        ▼                                             ▼
 
+ Azure Backup                               Azure Site Recovery
 
+ Recovery Services Vault                    Recovery Services Vault
+
+ (Central India)                            (South India)
+
+        │                                             │
+
+ Daily Recovery Points              Continuous Cross-Region Replication
+
+        │                                             │
+
+ VM Restore                         Replica Managed Disks
+
+                                              │
+
+                                              ▼
+
+                                Test Failover Virtual Machine
+                                    (Secondary Region)
 
 ```
 
